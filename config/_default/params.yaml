@@ -105,3 +105,7 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+
+marketing:
+  analytics:
+    google_analytics: 'G-8GL46RG43H'
