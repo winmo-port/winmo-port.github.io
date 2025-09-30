@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Alice Wu (吳恩達)
+title: Wing Li
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: ''
+role: 'Data Analyst | Aspiring Data Scientist'
 
 # Status emoji
 status:
@@ -14,11 +14,11 @@ status:
 
 # Organizations/Affiliations
 #organizations:
-#- name: 腾讯
+#- name:  
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Passionate about turning data into insights. Experienced in data analytics, e-commerce market research, and risk modeling. Skilled in Python, SQL, Tableau, and machine learning.
 
 #interests:
 #- Artificial Intelligence
@@ -26,16 +26,47 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #- Information Retrieval
 
 #education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+#  - Data Scientist with Python
+#    institution: DataCamp
+#    year: 2024 - 2025
+#
+#  - Data Analytics Certificate
+#    institution: BrainStation
+#    year: 2024
+#
+#  - Bachelor of Science
+#    institution: University
+#
+
+certifications:
+#  - name: Associate's degree, Data Analysis
+#    issuer: DataCamp
+#    
+#  - name: Associate's degree, Data Scientist
+#    issuer: DataCamp
+#    
+#  - name: Data Engineer
+#    issuer: DataCamp
+#    
+#  - name: SQL Fundamentals
+#    issuer: DataCamp
+#    
+#  - name: AI Engineer for Data Scientists Associate
+#    issuer: DataCamp
+#    
+
+skills:
+#  - Python (Programming Language)
+#  - SQL
+#  - R (Programming Language)
+#  - Microsoft Excel
+#  - Tableau
+#  - Power BI
+#  - Machine Learning
+#  - Statistics
+#  - Data Cleaning & ETL
+#  - Exploratory Data Analysis (EDA)
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,13 +75,13 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
+    link: 'mailto:info@nightowldatascience.dev' # For a direct email link, use "mailto:test@example.org".
+  - icon: github
     icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
+    link: https://github.com/
+  - icon: linkedin
     icon_pack: fab
-    link: https://instagram.com/geocushen
+    link: https://www.linkedin.com/in/
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
@@ -66,8 +97,10 @@ social:
 #email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a data analyst and aspiring data scientist with a strong foundation in mathematics and analytics.  
+I’ve worked on projects in credit risk modeling, customer purchase prediction, and e-commerce market research, applying tools such as Python, SQL, Tableau, and Power BI.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My interests include data-driven decision making, predictive modeling, and leveraging AI to optimize e-commerce operations.  
+I’m actively building a portfolio of real-world projects to bridge analytics and business strategy.    
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
