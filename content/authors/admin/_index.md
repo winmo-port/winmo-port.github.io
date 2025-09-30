@@ -12,20 +12,10 @@ role: 'Data Analyst | Aspiring Data Scientist'
 status:
   icon: ☕️
 
-# Organizations/Affiliations
-#organizations:
-#- name:  
-#  url: ""
-
 # Short bio (displayed in user profile at end of posts)
 bio: Passionate about turning data into insights. Experienced in data analytics, e-commerce market research, and risk modeling. Skilled in Python, SQL, Tableau, and machine learning.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
-
-#education:
+# education:
 #  - Data Scientist with Python
 #    institution: DataCamp
 #    year: 2024 - 2025
@@ -38,7 +28,7 @@ bio: Passionate about turning data into insights. Experienced in data analytics,
 #    institution: University
 #
 
-certifications:
+# certifications:
 #  - name: Associate's degree, Data Analysis
 #    issuer: DataCamp
 #    
@@ -59,7 +49,7 @@ certifications:
 #    issuer: DataCamp
 #    
 
-skills:
+# skills:
 #  - Python (Programming Language)
 #  - SQL
 #  - R (Programming Language)
@@ -85,17 +75,17 @@ social:
     link: https://github.com/
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/
+    link: https://www.linkedin.com/
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
-#  link: https://github.com/gcushen
+#  link: https://github.com/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+ - icon: cv
+   icon_pack: ai
+   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
