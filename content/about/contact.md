@@ -16,34 +16,18 @@ design:
   columns: '1'
 ---
 
-<form
-  action="https://formspree.io/f/xgvnkkng"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+<form action="https://formspree.io/f/xgvnkkng" method="POST">
+  <label for="name">Your name:</label><br>
+  <input type="text" id="name" name="name" required style="width:100%;padding:8px;margin-bottom:10px;"><br>
+
+  <label for="email">Your email:</label><br>
+  <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin-bottom:10px;"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" required style="width:100%;padding:8px;height:150px;margin-bottom:10px;"></textarea>
+<br>
+
+  <button type="submit" style="padding:10px 20px;background:#007bff;color:#fff;border:none;border-radius:5px;">
+    Send
+  </button>
 </form>
-
-#<form action="https://formspree.io/f/xgvnkkng" method="POST">
-#  <label for="name">Your name:</label><br>
-#  <input type="text" id="name" name="name" required style="width:100%;padding:8px;margin-bottom:10px;"><br>
-
-#  <label for="email">Your email:</label><br>
-#  <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin-bottom:10px;"><br>
-
-#  <label for="message">Message:</label><br>
-#  <textarea id="message" name="message" required style="width:100%;padding:8px;height:150px;margin-bottom:10px;"></textarea>
-#<br>
-
-#  <button type="submit" style="padding:10px 20px;background:#007bff;color:#fff;border:none;border-radius:5px;">
-#    Send
-#  </button>
-#</form>
