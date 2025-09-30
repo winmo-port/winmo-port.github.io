@@ -25,7 +25,7 @@ date_format: Jan 2006
 item:
   - certificate_url: https://www.coursera.org
     date_end: ''
-    date_start: '2024'
+    date_start: '2024-01-01'
     description: "Completed Andrew Ng’s specialization (DeepLearning.AI / Stanford), covering supervised learning, unsupervised learning, and ML best practices."
     organization: Coursera
     organization_url: https://www.coursera.org
@@ -33,7 +33,7 @@ item:
     url: ''
   - certificate_url: https://www.datacamp.com
     date_end: ''
-    date_start: '2024'
+    date_start: '2024-01-01'
     description: ''
     organization: DataCamp
     organization_url: https://www.datacamp.com
@@ -41,7 +41,7 @@ item:
     url: https://www.datacamp.com/
   - certificate_url: https://www.datacamp.com
     date_end: ''
-    date_start: '2024'
+    date_start: '2024-01-01'
     description: ''
     organization: DataCamp
     organization_url: https://www.datacamp.com
