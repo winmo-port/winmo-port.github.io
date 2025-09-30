@@ -48,6 +48,10 @@ certifications:
 #  - name: Data Engineer
 #    issuer: DataCamp
 #    
+# 
+#  - name: Machine Learning Specialization
+#    issuer: Coursera (DeepLearning.AI / Stanford)
+#
 #  - name: SQL Fundamentals
 #    issuer: DataCamp
 #    
