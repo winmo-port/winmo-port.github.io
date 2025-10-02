@@ -43,7 +43,7 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 - Class A items generated **over $300K in 2021 revenue**.  
 - Some Class B products performed nearly as efficiently → growth opportunity.  
 
-💡 **Action:** Increase Class B stock to capture more revenue.  
+**Action:** Increase Class B stock to capture more revenue.  
 
 ---
 
@@ -52,14 +52,14 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 - **Office & School**: Low revenue, but high turnover.  
 - **Jewelry**: Weak across the board.  
 
-💡 **Action:** Keep Office & School moving, optimize pricing, reduce Jewelry stock.  
+**Action:** Keep Office & School moving, optimize pricing, reduce Jewelry stock.  
 
 ---
 
 ### 3. Regional Focus  
 - USA, Canada, and Europe dominate orders.  
 
-💡 **Action:** Focus stocking and marketing in these regions first.  
+**Action:** Focus stocking and marketing in these regions first.  
 
 ---
 
@@ -67,7 +67,7 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 - Products like *Doughnut Lip Gloss* nearly doubled revenue YoY.  
 - Demand shifted from Home Accessories → Toys & Edibles.  
 
-💡 **Action:** Double down on trending products.  
+**Action:** Double down on trending products.  
 
 ---
 
@@ -79,7 +79,7 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 - Prioritize USA, Canada, and European markets.  
 - Always stock fast-growing products like *Doughnut Lip Gloss*.  
 
-✅ **Bottom line:** The dashboard helps teams **reduce waste, free up cash, and grow revenue**.  
+**Bottom line:** The dashboard helps teams **reduce waste, free up cash, and grow revenue**.  
 
 ---
 
