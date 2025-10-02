@@ -14,7 +14,7 @@ author: "Wing Li"
 featured: true
 image:
   preview_only: false
-  filename: "images/Inventory Analysis.png"
+  filename: "Inventory Analysis.png"
 ---
 
 ## Project Overview  
