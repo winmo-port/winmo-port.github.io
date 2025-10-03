@@ -85,15 +85,15 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ## Tableau Dashboard  
 
-<div class='tableauPlaceholder' id='viz1759465066982' style='position: relative; width: 100%;'>
+<div class='tableauPlaceholder' id='vizResponsive' style='width:100%; height:0; padding-bottom:75%; position:relative;'>
   <noscript>
     <a href='#'>
       <img alt='Inventory Analysis'
         src='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1.png'
-        style='border: none' />
+        style='border:none;' />
     </a>
   </noscript>
-  <object class='tableauViz' style='display:none;'>
+  <object class='tableauViz' style='position:absolute; top:0; left:0; width:100%; height:100%;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
     <param name='path' value='views/InventoryAnalysis_17593808760620/InventoryAnalysis?:language=en-US&:embed=true&publish=yes' />
@@ -108,22 +108,7 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 </div>
 
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1759465066982');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width = '100%';
-
-  // Dynamic height breakpoints
-  if (divElement.offsetWidth > 1200) {
-    vizElement.style.height = '950px'; // for large desktop
-  } else if (divElement.offsetWidth > 800) {
-    vizElement.style.height = '850px'; // for laptops
-  } else if (divElement.offsetWidth > 500) {
-    vizElement.style.height = '750px'; // tablets
-  } else {
-    vizElement.style.height = '1000px'; // mobile, extra height for story navigation
-  }
-
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  document.getElementById('vizResponsive').appendChild(scriptElement);
 </script>
