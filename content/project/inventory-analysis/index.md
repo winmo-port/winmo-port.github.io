@@ -85,30 +85,22 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ## Tableau Dashboard  
 
-<div class='tableauPlaceholder' id='vizResponsive' style='width:100%; height:0; padding-bottom:75%; position:relative;'>
+<div class="tableauPlaceholder" id="vizRetailInventory" style="width:100%; height:85vh; max-height:950px;">
   <noscript>
-    <a href='#'>
-      <img alt='Inventory Analysis'
-        src='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1.png'
-        style='border:none;' />
-    </a>
+    <a href="#"><img alt="Inventory Analysis"
+      src="https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1.png"
+      style="border:none" /></a>
   </noscript>
-  <object class='tableauViz' style='position:absolute; top:0; left:0; width:100%; height:100%;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-    <param name='embed_code_version' value='3' />
-    <param name='path' value='views/InventoryAnalysis_17593808760620/InventoryAnalysis?:language=en-US&:embed=true&publish=yes' />
-    <param name='toolbar' value='yes' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='en-US' />
+  <object class="tableauViz" style="width:100%; height:100%;">
+    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+    <param name="embed_code_version" value="3" />
+    <param name="path" value="views/InventoryAnalysis_17593808760620/InventoryAnalysis?:language=en-US&:embed=true&publish=yes" />
+    <param name="toolbar" value="yes" />
   </object>
 </div>
 
-<script type='text/javascript'>
+<script type="text/javascript">
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  document.getElementById('vizResponsive').appendChild(scriptElement);
+  document.getElementById('vizRetailInventory').appendChild(scriptElement);
 </script>
