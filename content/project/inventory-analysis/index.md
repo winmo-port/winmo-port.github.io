@@ -9,7 +9,7 @@ tags:
 categories:
   - Dashboard
   - Data Visualization
-author: "Wing Li"
+date: 2025-10-01
 
 featured: true
 image:
@@ -85,20 +85,22 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ## Tableau Dashboard  
 
-<div class='tableauPlaceholder' id='vizResponsive' style='position: relative; width: 100%;'>
+<div class='tableauPlaceholder' id='vizResponsiveCategory' style='position: relative; width: 100%;'>
   <noscript>
     <a href='#'>
-      <img alt='Inventory Analysis'
-        src='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1.png'
+      <img alt='Category and Country'
+        src='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/CategoryandCountry/1.png'
         style='border: none' />
     </a>
   </noscript>
   <object class='tableauViz' style='display:none;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
-    <param name='name' value='InventoryAnalysis_17593808760620/InventoryAnalysis' />
+    <param name='name' value='InventoryAnalysis_17593808760620/CategoryandCountry' />
     <param name='tabs' value='no' />
     <param name='toolbar' value='yes' />
+    <param name='static_image'
+      value='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/CategoryandCountry/1.png' />
     <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
     <param name='display_spinner' value='yes' />
@@ -109,16 +111,23 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 </div>
 
 <script type='text/javascript'>
-  var divElement = document.getElementById('vizResponsive');
+  var divElement = document.getElementById('vizResponsiveCategory');
   var vizElement = divElement.getElementsByTagName('object')[0];
   vizElement.style.width = '100%';
-  // Keep ratio but don’t let it get too short
-  vizElement.style.height = Math.max(divElement.offsetWidth * 0.65, 650) + 'px';
+
+  // Responsive height with minimum to stop clipping
+  if (divElement.offsetWidth > 1000) {
+    vizElement.style.height = Math.max(divElement.offsetWidth * 0.55, 700) + 'px';
+  } else if (divElement.offsetWidth > 600) {
+    vizElement.style.height = Math.max(divElement.offsetWidth * 0.75, 650) + 'px';
+  } else {
+    vizElement.style.height = Math.max(divElement.offsetWidth * 1.1, 600) + 'px';
+  }
+
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-
 
 
 ---
