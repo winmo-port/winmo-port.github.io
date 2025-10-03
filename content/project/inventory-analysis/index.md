@@ -85,8 +85,6 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ## Tableau Dashboard  
 
-## Tableau Dashboard  
-
 <div class='tableauPlaceholder' id='vizResponsiveCategory' style='position: relative; width: 100%;'>
   <noscript>
     <a href='#'>
