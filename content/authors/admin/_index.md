@@ -69,7 +69,7 @@ bio: Passionate about turning data into insights. Experienced in data analytics,
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:info@nightowldatascience.dev' # For a direct email link, use "mailto:test@example.org".
+    link: 'mailto:info@nightowldatascience.dev'
   - icon: github
     icon_pack: fab
     link: https://github.com/
@@ -81,11 +81,6 @@ social:
 #  icon_pack: fab
 #  link: https://github.com/
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
@@ -96,5 +91,3 @@ I’ve worked on projects in credit risk modeling, customer purchase prediction,
 
 My interests include data-driven decision making, predictive modeling, and leveraging AI to optimize e-commerce operations.  
 I’m actively building a portfolio of real-world projects to bridge analytics and business strategy.    
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
