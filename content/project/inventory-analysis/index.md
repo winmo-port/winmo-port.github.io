@@ -85,7 +85,6 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ## Tableau Dashboard  
 
-{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1759381211291' style='position: relative'>
   <noscript><a href='#'><img alt='Inventory Analysis '
     src='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1_rss.png'
@@ -116,7 +115,6 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-{{< /rawhtml >}}
 
 ---
 
