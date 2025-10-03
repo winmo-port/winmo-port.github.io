@@ -83,39 +83,51 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ---
 
-## Inventory Analysis
-
-
-<div class="tableauPlaceholder" id="vizPortfolio" style="position: relative; width: 100%; height: 1600px; overflow: auto;">
+<div class='tableauPlaceholder' id='viz1759476948565' style='position: relative'>
   <noscript>
-    <a href="#">
-      <img alt="Inventory Analysis" 
-           src="https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1_rss.png" 
-           style="border: none" />
+    <a href='#'>
+      <img alt='Inventory Analysis' 
+           src='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1_rss.png' 
+           style='border: none'/>
     </a>
   </noscript>
-  <object class="tableauViz" style="width:100%; height:100%;">
-    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-    <param name="embed_code_version" value="3" />
-    <param name="site_root" value="" />
-    <param name="name" value="InventoryAnalysis_17593808760620/InventoryAnalysis" />
-    <param name="tabs" value="no" />
-    <param name="toolbar" value="yes" />
-    <param name="static_image" value="https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1.png" />
-    <param name="animate_transition" value="yes" />
-    <param name="display_static_image" value="yes" />
-    <param name="display_spinner" value="yes" />
-    <param name="display_overlay" value="yes" />
-    <param name="display_count" value="yes" />
-    <param name="language" value="en-US" />
-    <param name="filter" value="publish=yes" />
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='InventoryAnalysis_17593808760620/InventoryAnalysis' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/In/InventoryAnalysis_17593808760620/InventoryAnalysis/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+    <param name='filter' value='publish=yes' />
   </object>
-</div>
-<script type="text/javascript">
-  var divElement = document.getElementById('vizPortfolio');
+</div>                
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1759476948565');
   var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width = '100%';
-  vizElement.style.height = '1600px'; // 🔑 Adjust this number if your story is taller
+
+  // Apply breakpoints for device width
+  if (divElement.offsetWidth > 991) {
+      // Desktop
+      vizElement.style.width = '100%';
+      vizElement.style.height = '1000px';
+  } else if (divElement.offsetWidth > 600) {
+      // Tablet
+      vizElement.style.width = '100%';
+      vizElement.style.height = '650px';
+  } else {
+      // Phone
+      vizElement.style.width = '100%';
+      vizElement.style.height = '700px';
+  }
+
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
