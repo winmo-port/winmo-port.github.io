@@ -70,6 +70,6 @@ Speed up strategic decisions
 
 ### In short: a process that used to take weeks of analysis can now be answered in minutes.
 
-<div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
+[<div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
   <iframe title="Supply Chain Analytics – Make vs. Buy Decision" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=a83bddae-727f-4e0b-bc25-b563e40789c7&autoAuth=true&ctid=fa0210ca-1c63-4b1e-a68e-3043590928c2" frameborder="0" allowFullScreen="true"></iframe>
-</div>
+</div>](https://app.powerbi.com/reportEmbed?reportId=a83bddae-727f-4e0b-bc25-b563e40789c7&autoAuth=true&ctid=fa0210ca-1c63-4b1e-a68e-3043590928c2)
