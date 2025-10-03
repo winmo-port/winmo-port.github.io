@@ -86,11 +86,11 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 ## Tableau Dashboard  
 
 
-<div style="position: relative; padding-bottom: 80%; height: 0; overflow: hidden; max-width: 100%;">
+<div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
   <iframe 
-    src="https://public.tableau.com/views/InventoryAnalysis_17593808760620/InventoryAnalysis?:showVizHome=no&:embed=true&:toolbar=yes"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-    allowfullscreen>
+    src="https://public.tableau.com/views/InventoryAnalysis_17593808760620/InventoryAnalysis?:language=en-US&:embed=true&:display_count=yes&publish=yes"
+    style="position: absolute; top:0; left:0; width:100%; height:100%; border:none;"
+    allowfullscreen="true">
   </iframe>
 </div>
 
