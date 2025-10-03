@@ -85,6 +85,8 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
 
 ## Tableau Dashboard  
 
+## Tableau Dashboard  
+
 <div class='tableauPlaceholder' id='vizResponsiveCategory' style='position: relative; width: 100%;'>
   <noscript>
     <a href='#'>
@@ -128,11 +130,3 @@ This Tableau dashboard gives procurement and product teams a **clear view of wha
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-
-
----
-
-## Tags / Categories  
-
-**Tags:** Tableau, Business Intelligence, Retail Analytics, Inventory Management  
-**Category:** Dashboard, Data Visualization  
